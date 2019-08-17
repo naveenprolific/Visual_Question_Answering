@@ -1,0 +1,30 @@
+
+1) Download visual question answering folder
+
+2) Navigate to the above folder location in terminal 
+
+3)use command "python3 vqaf.py" and run in terminal
+
+4)GUI will be popped up. Browse an image from your pc and enter question in the input box and predict 
+
+
+REQUIREMENTS TO RUN
+
+python 3
+keras 2.0.6
+keras-Applications 1.0.6
+Keras-Preprocessing 1.0.5
+scikit-learn 0.18.2
+spacy 2.1.0
+numpy 1.15.0
+pyqt4
+
+install using pip distribution
+
+pip install keras==2.0.6
+pip install scikit-learn==0.18.2
+python3 -m spacy download en_vectors_web_lg
+pip install numpy==1.15.0
+sudo apt-get install python3-qt4
+(or)
+sudo apt install build-essential python3-dev libqt4-dev
